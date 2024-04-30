@@ -1,0 +1,48 @@
+*{}
+
+.content{
+  position:relative;
+  width:100%;
+  height:100vh;
+}
+
+.bubble{
+ position:absolute;
+
+  background: pink;
+  bottom:150%;
+
+  filter:hue-rotate(360deg);
+  clip-path: path("M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z");
+ transform: scale(5);
+
+
+animation:3s linear enhaut ;
+}
+
+.coeur{
+    position:absolute;
+    top:100px;
+ 
+
+height:24px;
+width:24px;
+    clip-path: path("M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z");
+
+}
+
+@keyframes enhaut{
+  0%{
+    bottom:-400px;
+    filter:hue-rotate(270deg);
+  }
+  100%{
+    bottom:150%;
+    filter:hue-rotate(34deg);
+  }
+
+}
+
+.heart-3 {
+	
+}
